@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  transformer:
+    image: transformer
+    container_name: my_transformer
+    volumes:
+      - ./demo:/home/demo
+    stdin_open: true
+    tty: true
